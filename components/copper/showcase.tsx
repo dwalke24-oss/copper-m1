@@ -26,7 +26,7 @@ const PHOTOS: Record<
     height: 1024,
     alt: "Person writing in a notebook at a café table with Copper Notes clipped to their shirt pocket, its amber ring lit",
     caption:
-      "Clipped to a pocket, Copper Notes lights its amber ring so everyone knows it's recording.",
+      "Clipped to a pocket, Copper Notes lights its amber ring when it's recording.",
   },
 };
 
