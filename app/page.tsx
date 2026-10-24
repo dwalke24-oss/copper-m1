@@ -1,5 +1,6 @@
 import { Hero } from "@/components/copper/hero";
 import { PlusPricing } from "@/components/copper/plus-pricing";
+import { ProductFinder } from "@/components/copper/product-finder";
 import { PrivacySummary } from "@/components/copper/privacy-summary";
 import { Products } from "@/components/copper/products";
 import { Showcase } from "@/components/copper/showcase";
@@ -13,6 +14,7 @@ export default function Home() {
       <main className="flex w-full flex-1 flex-col">
         <Hero />
         <Products />
+        <ProductFinder />
         <Showcase />
         <PlusPricing />
         <PrivacySummary />
