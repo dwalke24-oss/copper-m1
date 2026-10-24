@@ -1,5 +1,6 @@
 import { Hero } from "@/components/copper/hero";
 import { PlusPricing } from "@/components/copper/plus-pricing";
+import { PrivacySummary } from "@/components/copper/privacy-summary";
 import { Products } from "@/components/copper/products";
 import { Showcase } from "@/components/copper/showcase";
 import { SiteFooter } from "@/components/copper/site-footer";
@@ -14,6 +15,7 @@ export default function Home() {
         <Products />
         <Showcase />
         <PlusPricing />
+        <PrivacySummary />
       </main>
       <SiteFooter />
     </>
